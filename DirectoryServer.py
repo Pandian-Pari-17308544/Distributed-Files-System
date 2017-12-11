@@ -1,8 +1,7 @@
-from TcpServer import TcpServer
+import sys
 import config
 import random
-import sys
-
+from TcpServer import TcpServer
 
 class DirectoryServer(TcpServer):
     messages = {config.REQUEST_FILE_DETAILS}
